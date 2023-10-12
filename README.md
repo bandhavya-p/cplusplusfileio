@@ -5,7 +5,7 @@ Course: CPSC 298
 Assignment: FileFunctions
 Files: filefunctions.cpp
 Errors: none
-References: FileIO pdf
+References: Functions pdf
 Instructions: 
 g++ -std=c++11 filefunctions.cpp -o filefunctions
 ./filefunctions
