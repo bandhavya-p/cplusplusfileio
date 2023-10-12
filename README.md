@@ -1,14 +1,14 @@
 Name: Bandhavya Parvathaneni
-Student ID: 5171868
+Student ID: 2406700
 Email: parvathaneni@chapman.edu
 Course: CPSC 298
-Assignment: FileCap
-Files: filecap.cpp
+Assignment: FileFunctions
+Files: filefunctions.cpp
 Errors: none
 References: FileIO pdf
 Instructions: 
-g++ -std=c++11 filecap.cpp -o filecap
-./filecap test2.txt
+g++ -std=c++11 filefunctions.cpp -o filefunctions
+./filefunctions
 
 About program: 
-This program uses int main(int argc, char*argv[]) to obtain the name of an output file through command line arguments. It then asks the user for the name of the input file and uses two if statements to check if the file exists. The program uses a while statement that has a nested for-loop and uses functions to check whether there are characters and if they are lower or upper case and switches the capitalization. The inverse capitalization is then sent to the output file and the files are then closed and it lets the user know that it is complete. 
+This program uses three different functions that (1) capitalize, (2) lowercase, (3) remove punctuations. The program then uses int main() to obtain the name of an input file and proceeds to ask which option the user would like to apply to each line in the input file. It then applies said options through a switch statement and then transfers these new lines to an output.txt file and closes both the input and output.
