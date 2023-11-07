@@ -2,13 +2,13 @@ Name: Bandhavya Parvathaneni
 Student ID: 2406700
 Email: parvathaneni@chapman.edu
 Course: CPSC 298
-Assignment: FileFunctions
-Files: filefunctions.cpp
+Assignment: Pointers and Arrays
+Files: pointarray.cpp
 Errors: none
-References: Functions pdf
+References: Pointers video
 Instructions: 
-g++ -std=c++11 filefunctions.cpp -o filefunctions
-./filefunctions
+g++ -std=c++11 pointarray.cpp -o pointarray
+./pointarray 5
 
 About program: 
-This program uses three different functions that (1) capitalize, (2) lowercase, (3) remove punctuations. The program then uses int main() to obtain the name of an input file and proceeds to ask which option the user would like to apply to each line in the input file. It then applies said options through a switch statement and then transfers these new lines to an output.txt file and closes both the input and output.
+This program uses command-line arguments and creates an array based on the array size that is given through the command-line arguments and prompts the user for that number of integers. Once the user gives the desired integer values, the program prints out the original array elements, the sum of the array elements, the maximum integer, the minimum integer, as well as the array reversed.
